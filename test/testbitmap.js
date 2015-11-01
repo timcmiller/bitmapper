@@ -1,6 +1,5 @@
 
 var expect = require('chai').expect;
-var bitmap = require(__dirname + '/../lib/bitmap');
 var shuffle = require(__dirname + '/../lib/transform').shuffle;
 var getDarker = require(__dirname + '/../lib/transform').getDarker;
 var getBrighter = require(__dirname + '/../lib/transform').getBrighter;
