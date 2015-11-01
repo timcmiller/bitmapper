@@ -15,7 +15,7 @@ gulp.task('jshint:transform', function() {
 });
 
 gulp.task('mocha', function() {
-  return gulp.src('./test/**', {read: false})
+  return gulp.src('./test/*.js', {read: true})
     .pipe(mocha({reaporter: 'nyan'}));
 });
 
